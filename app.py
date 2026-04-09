@@ -1,3 +1,4 @@
+#Isha Motwani
 import os
 import requests
 from flask import Flask, render_template, jsonify, request
@@ -5,8 +6,6 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# Free API from exchangerate-api.com (no key needed for open endpoint)
-# Uses the open.er-api.com free tier — no signup required
 BASE_URL = "https://open.er-api.com/v6/latest"
 
 CURRENCY_NAMES = {
